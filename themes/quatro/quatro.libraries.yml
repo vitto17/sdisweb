@@ -1,0 +1,52 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/custom.css: {}
+  js:
+    js/quatro-script.js: {}
+global-styling-rtl:
+  css:
+    theme:
+      css/bootstrap-rtl.css: {}
+      css/style-rtl.css: {}
+blue-styling:
+  version: 8.0
+  css:
+    theme:
+      css/blue-style.css: {}
+green-styling:
+  version: 8.0
+  css:
+    theme:
+      css/green-style.css: {}
+dark-styling:
+  version: 8.0
+  css:
+    theme:
+      css/dark-style.css: {}
+orange-styling:
+  version: 8.0
+  css:
+    theme:
+      css/orange-style.css: {}
+pink-styling:
+  version: 8.0
+  css:
+    theme:
+      css/pink-style.css: {}
+purple-styling:
+  version: 8.0
+  css:
+    theme:
+      css/purple-style.css: {}
+red-styling:
+  version: 8.0
+  css:
+    theme:
+      css/red-style.css: {}
+yellow-styling:
+  version: 8.0
+  css:
+    theme:
+      css/yellow-style.css: {}

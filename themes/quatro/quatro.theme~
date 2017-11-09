@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Add color, menu and theme settings
+ */
+function quatro_preprocess_page(&$variables) {
+
+
+  // Theme color
+  $color = theme_get_setting('theme_color');
+  if ($color != 'default') {
+    $variables['#attached']['library'][] = 'quatro/'.$color.'-styling';
+  }
+}
