@@ -41,7 +41,7 @@ li a.active {
 
 /*  Header  */
 .header-navbar-wrapper {
-  background-color: #b70000;
+  background-color: #aaa;
 }
 
 /* Pager */
@@ -61,8 +61,12 @@ li a.active {
 	NAVIGATION CSS
 \*------------------------------------*/
 #block-menugeneral ul.menu a {
-	color: #ececec;
+	color: #505050;
 	text-decoration: none;
+}
+
+#block-menugeneral ul.menu li:hover a  {
+	color: #fff;
 }
 /*
  * Main menu links
@@ -101,10 +105,10 @@ li a.active {
   background: #9E0000;
 }
 
-/* Search menu item */
+/* Search menu item
 #block-quatro-main-menu ul.menu li:last-child {
   background-color: #9E0000;
-}
+}*/
 
 /* User menu */
 .block-system-user-menu ul.menu a {

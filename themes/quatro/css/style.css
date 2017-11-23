@@ -119,7 +119,7 @@ img {
 }
 /*  Zone branding  */
 .header-navbar-wrapper {
-  background-color: #b70000; /* url(../images/header-bg.png); */
+  background-color: #aaa; /* url(../images/header-bg.png); */
 }
 .navbar-default {
   background: none;
@@ -211,9 +211,11 @@ img {
   margin: 20px 0;
   text-align: center;
 }
+
 a.logo /* Wrapping link for logo */ {
   text-align: center;
   width: 100%;
+  filter: drop-shadow(2px 2px 2px #333);
 }
 
 
@@ -476,7 +478,7 @@ ul#main-menu li a.active,
   padding: 0;
   text-align: center;
   width: 100%;
-  background: none;
+  background: #9E0000;
 }
 
 ul.nice-menu, ul.nice-menu ul {
@@ -610,10 +612,11 @@ ul.nice-menu-down li.menuparent:hover {
 	  display: block;
 	}
 	/* Search menu item */
-	#block-quatro-main-menu ul.menu li:last-child {
+	/*block-quatro-main-menu ul.menu li:last-child {
 	  float: right;
 	  background-color: #9E0000;
-	}
+	}*/
+
 	#block-quatro-main-menu ul.menu li a.menu-path-search:hover,
 	#block-quatro-main-menu ul.menu li a.menu-path-search.active-trail,
 	#block-quatro-main-menu ul.menu li a.menu-path-search {
@@ -3742,7 +3745,7 @@ ul.secondary a.active:focus {
 
 #block-menugeneral ul.menu li:last-child {
     float: right;
-    background-color: #9E0000;
+    background-color: #7E7E7E;
 }
 
 .menugeneral{
